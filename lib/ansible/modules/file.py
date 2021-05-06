@@ -59,6 +59,7 @@ options:
     description:
     - Recursively set the specified file attributes on directory contents.
     - This applies only when C(state) is set to C(directory).
+    - Given file permissions will apply to subdirectories only.
     type: bool
     default: no
     version_added: '1.1'
